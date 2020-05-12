@@ -1,0 +1,22 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "callback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COMERCIO-ELECTRONICO/Diego-Pitizaca.git"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COMERCIO-ELECTRONICO/Diego-Pitizaca/issues"
+  },
+  "homepage": "https://github.com/COMERCIO-ELECTRONICO/Diego-Pitizaca#readme",
+  "dependencies": {
+    "join": "^3.0.0"
+  }
+}
