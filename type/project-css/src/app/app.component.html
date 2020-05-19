@@ -1,0 +1,302 @@
+<div class="container">
+  <h1 class="titulo">Hola</h1>
+  <div class="row" style="background-color: yellow;">
+    lunes
+  </div>
+  <div class="col-md-12" style="background-color: tomato;">
+    martes
+  </div>
+  <div class="col-md-6" style="background-color: yellowgreen;">
+    miercoles
+  </div>
+  <div class="col-md-6" style="background-color: yellowgreen;">
+    jueves
+  </div>
+  <div class="col-md-4" style="background-color: teal;">
+    1
+  </div>
+  <div class="col-md-4" style="background-color: teal;">
+    2
+  </div>
+  <div class="col-md-4" style="background-color: teal;">
+    3
+  </div>
+  <!-- llamar a las directivas ngif ngfor -->
+</div>
+<h1>
+  DIRECTIVAS
+</h1>
+<button type="button" class="btn btn-success" (click)="eventoClick()">Success</button>
+<p *ngif="esconder">Hola</p>
+<!-- emmet es un plugin que permite hacer codigo html mas rapido  emmet-->
+<!-- .row>.col-md-12+.col-md-6 -->
+<div class="titulo">TItulo</div>
+<div class="row">
+  <div class="col-md-12">Lunes</div>
+  <div class="col-md-6">Martes</div>
+  <div class="col-sm-3">Miercoles</div>
+  <div class="col-sm-3">Jueves</div>
+</div>
+
+
+<!-- tarea -->
+<div class="container">
+  <div class="row">
+    .col-md
+  </div>
+</div>
+
+<!-- Tarea -->
+<!-- <div class="container">
+  <section class="row" class="col-md-3" class="text-right">
+    Teléfono: (593 2) 3 280 861 
+  </section>
+  <div class="row" class="col-md-3" class="text-right">
+    info@setecoecuador.com
+  </div>
+  <section class="servicios d-flex justify-content-around">
+    <li class="nav-item1">
+      <a id="logo" href="http://www.setecoecuador.com">
+        <div class="custom-logo">
+          <img src="http://www.setecoecuador.com/images/stories/seteco/seteco-logo-main.png"
+            width="250" height="auto" alt="seteco logo"></div>
+      </a>
+    </li>
+    <li class="nav-item2">
+      <a class="nav-link active" href="#">INICIO</a>
+    </li>
+    
+  
+  <div class="row p-4 justify-content-center" class="text-right">
+   
+    <div class="text-center">
+      <ul class="nav nav-pills">
+     
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTOS</a>
+        <div class="dropdown-menu">
+          <div style="overflow: hidden; width: 580px; height: 219px; margin-top: 0px; display: none;"><div style="min-width: 580px; min-height: 219px;"><div class="dropdown-bg"><div><div class="width50 column"><ul class="level2" style="min-height: 203px;"><li class="level2 item84"><a href="/aluminio.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_cedal.png');"> </span>Aluminio</span></a></li><li class="level2 item89"><a href="/paneles-de-aluminio-compuesto.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_vitralbond.png');"> </span>Paneles de aluminio compuesto</span></a></li><li class="level2 item91"><a href="/vidrio-laminado.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_fairis.png');"> </span>Vidrio laminado</span></a></li><li class="level2 item90"><a href="/vidrio-arquitectonico.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_seteco.png');"> </span>Vidrio arquitectónico</span></a></li></ul></div><div class="width50 column"><ul class="level2" style="min-height: 203px;"><li class="level2 item85"><a href="/punto-fijo-|-accesorios-de-vidrio-templado.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_tecmatriz.png');"> </span>Punto fijo - Accesorios para vidrio templado</span></a></li><li class="level2 item86"><a href="/policarbonato.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_arcos.png');"> </span>Policarbonato</span></a></li><li class="level2 item87"><a href="/paneles-para-divisiones-interiores.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_EQ.png');"> </span>Paneles para divisiones de interiores</span></a></li><li class="level2 item115"><a href="/decks-pisos-y-pergolas.html" class="level2"><span><span class="icon" style="background-image: url('http://www.setecoecuador.com/images/stories/menu_arkodeck.png');"> </span>Decks - Pisos y pérgolas</span></a></li></ul></div></div></div></div></div>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SOBRE NOSOTROS</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS Y GARANTÍAS</a>
+        <div class="dropdown-menu">
+          <a  class="dropdown-item" href="#">Nuestros Servicios</a>
+          <a  class="dropdown-item" href="#">Nuestras Garantías</a>
+
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CONTACTO</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+  </section>
+   -->
+    
+    <!-- <div class="col-sm-md-2">INICIO</div>
+    <div class="col-sm-md-2">PRODUCTOS</div>
+    <div class="col-sm-md-2">SOBRE NOSOTROS</div>
+    <div class="col-sm-md-2">SERVICIOS Y GARANTÍAS</div>
+    <div class="col-sm-md-2">CONTACTO</div> -->
+
+    
+ 
+  
+
+
+
+
+  <section class="container">
+    <div class="row p-4">
+      <article class="col-sm-6">
+        <div class="border rounded p-4 shadow-sm text-center">
+          <h2>Suministros</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</p>
+          <button type="submit" class="btn btn-outline-info btn-lg btn-block">Enviar</button>
+        </div>
+      </article>
+      <article class="col-sm-6">
+        <div class="border rounded p-4 shadow-sm text-center">
+          <h2>Suministros</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</p>
+          <button type="submit" class="btn btn-outline-secondary btn-sm">Enviar</button>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- <nav class="navbar navbar-dark bg-secondary navbar-expand-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="images/logo.jpg" alt="Logo de empresa" width="100" height="auto">
+      </a>
+      <a href="#" class="navbar-brand">
+        
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+      data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+      arial-label="Desplegar ménú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu-principal">
+         
+      </div>
+    </div>
+  </nav> -->
+
+
+<!-- seccion Tarea -->
+
+
+<!-- <div class="container"> -->
+<div id="block-header" class="grid-block" class="d-inline-flex p-4 bd-highlight mb-3" style="background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/fondo-celeste-oscuro-6269.jpg);">
+  <div class="wrapper">
+    <div class="row" class="col-md-3" class="text-right" style="font-size:large;">
+      <h4>Teléfono:(593 )0995876843</h4>
+    </div>
+    <div class="row" class="col-md-3" class="text-right" style="font-size:large;">
+      <h4>info@setecoecuador.com</h4>
+    </div>
+    <div class="row">
+      <div class="col-ms-md-2">
+        <a id="logo" href="http://www.setecoecuador.com">
+          <div class="custom-logo">
+            <img src="http://www.setecoecuador.com/images/stories/seteco/seteco-logo-main.png" width="250" height="auto"
+              alt="seteco logo"></div>
+        </a>
+      </div>
+      <div class="col-md-2">
+        <li class="nav-item" class="col-md-1">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static"
+            aria-haspopup="true" aria-expanded="false">
+            INICIO
+          </button>
+        </li>
+      </div>
+      <div class="col-md-2">
+        <li class="nav-item" class="col-md-1">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static"
+              aria-haspopup="true" aria-expanded="false">
+              PRODUCTOS
+            </button>
+            <div class="dropdown-menu dropdown-menu-sm-right">
+              <button class="dropdown-item" type="button">Puertas</button>
+              <button class="dropdown-item" type="button">Ventanas</button>
+              <button class="dropdown-item" type="button">Pasamanos</button>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="col-md-2">
+        <li class="nav-item" class="col-md-1">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static"
+              aria-haspopup="false" aria-expanded="true">
+              SOBRE NOSOTROS
+            </button>
+          </div>
+        </li>
+      </div>
+      <div class="col-md-2">
+        <li class="nav-item" class="col-md-1">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static"
+              aria-haspopup="true" aria-expanded="false">
+              SERVICIOS Y GARANTÍAS
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Nuestros Servicios</a>
+              <a class="dropdown-item" href="#">Nuestras Garantías</a>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="col-md-2">
+        <li class="nav-item" class="col-md-1">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static"
+            aria-haspopup="false" aria-expanded="true">
+            CONTACTO
+          </button>
+        </li>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" class="col-md-4">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.omsacorpxpress.com/images/aluminio-vidrio-16-1024x768.jpg" class="d-block w-250"
+              alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://www.aluminioyvidriojavra.com.mx/img/3420/669.jpg" class="d-block w-250" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.ubikate.net/wp-content/uploads/2019/10/1-14.jpg" class="d-block w-250" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <section class="container">
+        <div class="row p-4">
+          <article class="col-sm-6">
+            <div class="border rounded p-4 shadow-sm text-center">
+              <h2>Aluminio</h2>
+              <p class="text-info">Las ventanas de aluminio se pueden fabricar de dos maneras, se puede comprar la perfilería pre-formada
+                y cortarse a la medida necesaria, o también se pueden comprar los paneles de aluminio y cortarlos a
+                medida. Luego se moldea y se plega doblando los perfiles a través de una serie de máquinas,
+                siendo la primera, la opción más utilizada debido a su menor tiempo de elaboración.</p>
+              <button type="submit" class="btn btn-outline-info btn-lg btn-block">Ir</button>
+            </div>
+          </article>
+          <article class="col-sm-6">
+            <div class="border rounded p-4 shadow-sm text-center">
+              <h2>Vidrio</h2>
+              <p class="text-info">El vidrio es un material inorgánico duro, frágil, transparente y amorfo que se encuentra en la
+                naturaleza, aunque también puede ser producido por el ser humano.​ El vidrio artificial se usa para
+                hacer ventanas, lentes, botellas y una gran variedad de productos.
+                El vidrio es un tipo de material cerámico amorfo.
+                El vidrio se obtiene a unos 1500 °C a partir de arena de sílice (SiO2)</p>
+              <button type="submit" class="btn btn-outline-info btn-lg btn-block">Ir</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <h1>Dirección </h1>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+        src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3989.7636308150513!2d-78.53717363591!3d-0.29999474978111934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x91d5a271b268fd3f%3A0x352a59550910fd37!2sE4F%2C%20Quito%20170146!3m2!1d-0.30119789999999996!2d-78.53508389999999!4m3!3m2!1d-0.2991379!2d-78.5347414!5e0!3m2!1ses-419!2sec!4v1587400180368!5m2!1ses-419!2sec"
+        style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="container">
+      <div id="block-footer">
+        <div class="wrapper">
+          <footer id="footer" class="grid-block">
+            <div class="module   deepest">
+              <a title="diseño web quito">Autor-Diego Pitizaca
+                proyectoprueba.com</a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </div> -->
